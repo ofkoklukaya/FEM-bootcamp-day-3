@@ -1,0 +1,123 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.wrapper {
+    width:80%;
+    margin:0 auto;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.leftheader {
+    flex-basis: 40%;
+    border: 0px dashed brown;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+.rightheader h1 {
+    color:purple;
+    font-size: 2.2rem;
+    margin:0;
+    border: 0px dashed brown;
+}
+.rightheader p {
+    margin:0;
+    border: 0px dashed brown;
+}
+.rightheader {
+    flex-basis: 60%;
+    border: 0px dashed brown;
+    padding-left: 0.5rem;
+    padding-top: 4rem;
+}
+nav {
+    border-top: 1px solid red;
+    border-bottom: 1px solid maroon;
+}
+nav ul {
+    list-style-type: none;
+    border: 0px dashed brown;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration:none;
+    color:maroon;
+    display: block;
+    border: 0px dashed brown;
+    padding: 0.5rem 1rem;
+}
+nav a:hover {
+    background-color: black;
+    color:azure;
+}
+article h2 {
+    padding-top: 1rem;
+}
+article {
+    margin:2rem 0;
+    border: 0px dashed brown;
+}
+article img {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border-radius: 10%;
+}
+article:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+section {
+    border-bottom: 2px solid purple;
+    margin-bottom: 0.3rem;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 2px solid orange;
+}
+footer p {
+    border: 0px dashed black;
+    text-align: center;
+}
+footer ul {
+    list-style-type: none;
+    border: 0px dashed black;
+    padding:0;
+    margin:0;
+}
+footer li {
+    display:inline-block;
+    border: 0px dashed brown;
+
+}
